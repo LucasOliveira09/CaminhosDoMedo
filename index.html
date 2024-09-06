@@ -14,8 +14,14 @@
         <h1>
             CAMINHOS DO MEDO
         </h1>
+        <audio class="audio" controls>
+            <source src="musica/Dark Piano - Psycho.mp3" type="audio/mpeg">
+        </audio>
+    
     </div>
         
+    
+
         <DIV class="passo ativo" id="passo-0">
             <img src="imagens/Inicio.png" alt="">
             <div class="legenda">
@@ -33,7 +39,7 @@
                 <p>Tem algo na sua casa e as luzes estão apagadas, você precisa fugir antes de ser pego. Ao sair do quarto escolha...</p>
             </div>
             <button class="btn-proximo" data-proximo="2">Ir para o quarto dos pais</button>
-            <button class="btn-proximo" data-proximo="">Descer pelas escadas </button>
+            <button class="btn-proximo" data-proximo="7">Descer pelas escadas </button>
         </div>
         
         <div class="passo" id="passo-2">
@@ -49,12 +55,10 @@
 
         <!-- Game over = passo-4 -->
         <div class="passo" id="passo-4">
-            <img src="" alt="">
-            <div class="legenda">
-                <p>Infelizmente o monstro te pegou e te matou, volte do inicio e tente novamente fugir!!!</p>
-            </div>
-            <button class="btn-proximo" data-proximo="0">Recomeçar!</button>
-            </button>
+            <img src="imagens/morte.png" alt="">
+            <h1>GAME OVER</h1>
+            <p>Infelizmente voce foi morto volte do inicio e tente novamente</p>
+            <button class="btn-proximo" data-proximo="0">RECOMECE!</button>
         </div>
 
 
@@ -122,7 +126,7 @@
         </div>
 
         <div class="passo" id="passo-11">
-            <img src="" alt="">
+            <img src="imagens/homem correndo.png" alt="">
             <div class="legenda">
                 <p>Parabens parece que seus gritos foram escutados e a policia local te salvou, parabens!</p>
             </div>

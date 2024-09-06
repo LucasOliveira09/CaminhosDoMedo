@@ -44,10 +44,32 @@ button:hover {
     border-radius: 15px;
 }
 
+.audio {
+    opacity: 10%;
+    margin-bottom: 15px;
+}
+
 .passo {
     display: none;
 }
 
 .passo.ativo {
     display: block;
+}
+
+#passo-4 {
+    text-align: center;
+    background-color: rgba(74, 23, 41, 0.118);
+    margin-top: 30px;
+    border-radius: 20px;
+    padding-bottom: 15px;
+}
+
+#passo-4 p {
+    font-size: 25px;
+    color: rgba(255, 228, 196, 0.384);
+}
+
+#passo-4 h1 {
+    color: rgb(95, 0, 0);
 }
